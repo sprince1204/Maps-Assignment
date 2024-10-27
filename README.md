@@ -1,35 +1,32 @@
-# InTandem Map Application
+# InTandem Map Project
 
-A React-based map application with a draggable marker using `react-leaflet`, which allows users to add remarks at specific locations. The app also includes a sidebar that stores and displays a history of remarks, enabling users to revisit previously saved locations.
+This project is an interactive map application that allows users to add remarks at specific locations by clicking on the map or dragging a marker. It uses React and Leaflet for map rendering and interactivity.
+
+## Table of Contents
+
+- [Project Overview](#project-overview)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Folder Structure](#folder-structure)
+- [Components](#components)
+- [Future Enhancements](#future-enhancements)
+
+## Project Overview
+
+This is a map application where users can select locations on the map by clicking or dragging a marker. Once a location is selected, users can add remarks or notes related to that place, and the data is saved in a list.
 
 ## Features
 
-- **Interactive Map**: 
-  - Displays a map using OpenStreetMap tiles via `react-leaflet`.
-  - Allows users to drag a marker to different locations.
-- **Add Remarks**: 
-  - Users can add remarks to a location by dragging the marker and inputting the remark in the popup.
-  - Remarks include the location's address, custom note, and timestamp.
-- **Remark History**: 
-  - Stores all added remarks in `localStorage` for persistence.
-  - Displays a list of remarks in a sidebar.
-  - Clicking on a remark in the sidebar moves the marker to the saved location.
-- **Responsive Design**: 
-  - Sidebar toggles visibility for smaller screens.
-  - Uses Tailwind CSS for styling.
+- **Map Interaction**: Click anywhere on the map to place a marker.
+- **Draggable Marker**: Drag the marker to adjust the location.
+- **Popup with Remarks**: Add notes to a specific location via a popup.
+- **Dynamic Address Fetching**: Automatically retrieves and displays the address of the selected position.
 
-## Tech Stack
+## Technologies Used
 
-- **React**: Frontend framework.
-- **React Leaflet**: For map rendering and interaction.
-- **Tailwind CSS**: For styling.
-- **React Icons**: For icons in the UI.
-- **LocalStorage**: For storing and retrieving remark history.
-
-## Installation
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/yourusername/intandem-map-app.git
-   cd intandem-map-app
+- **React**: Frontend library for building the user interface.
+- **React-Leaflet**: Library for integrating Leaflet maps in React.
+- **Leaflet**: JavaScript library for interactive maps.
+- **Custom Hooks**: Used for fetching address information based on location.
