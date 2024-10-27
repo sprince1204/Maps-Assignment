@@ -2,16 +2,6 @@
 
 This project is an interactive map application that allows users to add remarks at specific locations by clicking on the map or dragging a marker. It uses React and Leaflet for map rendering and interactivity.
 
-## Table of Contents
-
-- [Project Overview](#project-overview)
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Folder Structure](#folder-structure)
-- [Components](#components)
-- [Future Enhancements](#future-enhancements)
 
 ## Project Overview
 
